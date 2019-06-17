@@ -619,7 +619,7 @@ class Algolia_Algoliasearch_Helper_Entity_Producthelper extends Algolia_Algolias
                 // configurable appears to assume that there are no customer_group_prices
                 // specified on the attached simple products, but needs re-writing anyway
                 // to correctly calculate the option price, not the simple price
-                if ($type == 'grouped' || $type == 'bundle' || $type == 'configurable') {
+                if (false) {
                     $min = PHP_INT_MAX;
                     $max = 0;
 
